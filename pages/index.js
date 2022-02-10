@@ -4,6 +4,7 @@ import Banner from '../components/Banner'
 import Header from '../components/Header'
 import ProductFeed from '../components/ProductFeed'
 import styles from '../styles/Home.module.css'
+import { Provider } from 'react-redux'
 
 export default function Home({products}) {
   return (

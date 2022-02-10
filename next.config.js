@@ -1,6 +1,6 @@
 module.exports =  {
   images:{
-    domains: ["www.mabaya.com", "fakestoreapi.com"],
+    domains: ["www.mabaya.com", "links.papareact.com", "fakestoreapi.com"],
   },
   
 };
