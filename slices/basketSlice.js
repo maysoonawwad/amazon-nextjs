@@ -14,7 +14,7 @@ export  const basketSlice = createSlice({
        // to find id we want to remove findIndex better than filter 
        const index = state.items.findIndex(basketItem => basketItem.id === action.payload.id)
        let newBasket = [...state.items] ;
-       if (index >= 0 ){
+       if (index >= 0 ){  
          // to cut off the product that we want to remove from the array
         newBasket.splice(index , 1)
        } else {
